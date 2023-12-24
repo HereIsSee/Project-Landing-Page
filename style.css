@@ -1,11 +1,11 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: #1F2937;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
+    font-family: 'Muli', sans-serif;
 }
 
 
@@ -39,13 +39,17 @@ a{
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
     gap:16px;
-    max-width: 800px;
+    flex:1;
     margin: 0 auto;
+    
 }
 .Info{
     display:flex;
     flex-direction: column;
+    max-width: 400px;
+    
 }
 .HeroMain{
     font-size: 48px;
@@ -74,6 +78,7 @@ button {
     background-color: white;
     margin:0;
     padding:10px 30px 30px 30px;
+    flex:1;
   }
   .cards{
     text-align: center;
@@ -98,3 +103,43 @@ button {
     border-radius: 30px;
     border: 2px solid royalblue;
   }
+.content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    padding:32px;
+    background-color: #E5E7EB;
+    flex:1;
+}
+.quote{
+    max-width: 600px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+.author{
+    max-width: 600px;
+    align-self: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.content4{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.promotion{
+    background-color: royalblue;
+    background: white;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+
+}
